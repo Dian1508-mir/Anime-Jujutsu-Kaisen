@@ -1,0 +1,92 @@
+*, html  {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body { 
+background-color: rgb(165, 132, 219);
+}
+
+nav {
+    background-color: rgb(119, 180, 111);
+     display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}
+    
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    list-style: none;
+}
+
+nav div img{
+    width: 80px;
+    height: 80px;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(30, 231, 181);
+    font-weight: 600;
+    padding: 8px 0;
+    transition: all;
+    transition-duration: 300ms;
+    border-bottom: 1px solid rgba(rgb(123, 159, 173));
+}
+
+.content {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.content img {
+    width: 250;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+.content h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: rgb(52, 30, 104);
+    font-size: xx-large;
+}
+
+.content p {
+    color: rgb(196, 128, 134);
+    font-size: 1.1rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.content blockquote {
+    color: rgb(41, 11, 95);
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.main-container {
+    background-color: rgb(64, 77, 11);
+    width: 80%;
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px;
+    text-align: center;
+}
+
+.info-box h2 {
+    background-color: rgb(101, 86, 156);
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(185, 57, 95);
+    margin-bottom: 20px;
+}

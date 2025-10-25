@@ -1,0 +1,48 @@
+/* Reset dasar */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navbar utama */
+nav {
+  display: flex;
+  justify-content: space-between; /* membuat logo di kiri dan menu di kanan */
+  align-items: center;
+  background-color: #111;
+  padding: 10px 40px;
+}
+
+/* Logo */
+nav img {
+  width: 100px;
+  border-radius: 8px;
+}
+
+/* Menu daftar */
+nav ul {
+  list-style: none; /* hilangkan bullet */
+  display: flex;
+  gap: 25px; /* jarak antar menu */
+}
+
+/* Teks menu */
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+/* Efek hover */
+nav ul li a:hover {
+  color: #00bfff; /* warna biru saat di-hover */
+}
+
+/* Warna latar belakang body agar cocok */
+body {
+  background-color: #1a1a1a;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
